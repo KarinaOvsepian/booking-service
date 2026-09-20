@@ -1,0 +1,54 @@
+{
+  "name": "booking-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --fix",
+    "format": "prettier --write \"src/**/*.{ts,scss,css}\"",
+    "test": "mocha",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarinaOvsepian/booking-service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/KarinaOvsepian/booking-service/issues"
+  },
+  "homepage": "https://github.com/KarinaOvsepian/booking-service#readme",
+  "devDependencies": {
+    "@types/chai": "^4.3.20",
+    "@types/mocha": "^10.0.10",
+    "@typescript-eslint/eslint-plugin": "^8.70.0",
+    "@typescript-eslint/parser": "^8.70.0",
+    "chai": "^4.5.0",
+    "css-loader": "^7.1.5",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.6",
+    "html-webpack-plugin": "^5.6.8",
+    "husky": "^9.1.7",
+    "mocha": "^12.0.2",
+    "prettier": "^3.9.8",
+    "sass": "^1.104.1",
+    "sass-loader": "^17.0.1",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5",
+    "webpack": "^5.111.1",
+    "webpack-cli": "^7.2.3",
+    "webpack-dev-server": "^6.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8"
+  }
+}

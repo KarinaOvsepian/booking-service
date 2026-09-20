@@ -1,0 +1,40 @@
+# Залежності
+node_modules/
+.pnp
+.pnp.js
+
+# Результати збірки (Webpack / Vite)
+dist/
+build/
+*.tsbuildinfo
+
+# Налаштування IDE (WebStorm / JetBrains та VS Code)
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Логи та звіти про помилки
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Звіти тестів та покриття коду
+coverage/
+.nyc_output/
+
+# Змінні середовища
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Системні файли ОС
+.DS_Store
+Thumbs.db
